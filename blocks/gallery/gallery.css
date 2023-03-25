@@ -1,0 +1,6 @@
+.gallery {
+    width: 288px;
+    min-height: 2724px;
+    display: grid;
+    gap: 12px;
+}

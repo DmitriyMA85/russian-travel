@@ -1,4 +1,5 @@
 .lead__image {
+    display: block;
     width: 320px;
     height: 200px;
 }

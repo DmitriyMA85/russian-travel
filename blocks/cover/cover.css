@@ -1,0 +1,26 @@
+.cover {
+    position: relative;
+    width: 320px;
+    min-height: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: #2A2C2F;
+    z-index: 0;
+}
+
+.cover:hover {
+    opacity: .8;
+}
+
+.cover::after {
+    content: "";
+    position: absolute;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: contain;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+    z-index: -1;
+}

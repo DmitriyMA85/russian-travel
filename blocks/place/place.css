@@ -1,0 +1,10 @@
+.place {
+    width: 320px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    list-style-type: none;
+}
+
+.place:last-of-type {
+    margin-bottom: 66px;
+}

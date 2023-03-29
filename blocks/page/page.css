@@ -1,8 +1,32 @@
 .page {
-    max-width: 320px;
+    width: 320px;
     min-height: 10023px;
     display: flex;
     flex-direction: column;
     background: #2A2C2F;
     margin: 0 auto;
+}
+
+@media (min-width:768px) {
+    .page {
+        width: 768px;
+        min-height: 6855px;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .page {
+        width: 1024px;
+        min-height: 6855px;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .page {
+        width: 1280px;
+        min-height: 6875px;
+    }
+
 }

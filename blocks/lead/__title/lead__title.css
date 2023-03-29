@@ -1,9 +1,41 @@
 .lead__title {
     width: 288px;
     min-height: 88px;
-    margin: 0 16px 16px 16px;
+    margin: 0 auto 16px auto;
     font-size: 40px;
     line-height: 44px;
     font-weight: 900;
     text-align: center;
+}
+
+@media (min-width:768px) {
+    .lead__title {
+        width: 720px;
+        min-height: 200px;
+        margin: 0 auto 32px auto;
+        font-size: 96px;
+        line-height: 100px;
+    }
+}
+
+@media (min-width:1024px) {
+    .lead__title {
+        width: 720px;
+        min-height: 200px;
+        margin: 0 auto 32px auto;
+        font-size: 96px;
+        line-height: 100px;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .lead__title {
+        width: 720px;
+        min-height: 200px;
+        margin: 0 auto 32px auto;
+        font-size: 96px;
+        line-height: 100px;
+    }
+
 }

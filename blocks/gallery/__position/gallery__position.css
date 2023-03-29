@@ -1,6 +1,23 @@
 .gallery__position {
-    margin-top: 64px;
-    margin-bottom: 64px;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 64px auto 64px auto;
+}
+
+@media (min-width:768px) {
+    .gallery__position {
+        margin: 88px auto 64px auto;
+    }
+}
+
+@media (min-width:1024px) {
+    .gallery__position {
+        margin: 92px auto 92px auto;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .gallery__position {
+        margin: 92px auto 92px auto;
+    }
+
 }

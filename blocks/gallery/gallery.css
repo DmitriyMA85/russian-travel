@@ -4,3 +4,32 @@
     display: grid;
     gap: 12px;
 }
+
+@media (min-width:768px) {
+    .gallery {
+        grid-template-columns:repeat(2,1fr);
+        width: 720px;
+        min-height: 1664px;
+        gap: 16px;
+    }
+}
+
+@media (min-width:1024px) {
+    .gallery {
+        grid-template-columns:repeat(3,1fr);
+        width: 928px;
+        min-height: 942px;
+        gap: 14px;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .gallery {
+        grid-template-columns:repeat(4,1fr);
+        width: 1184px;
+        min-height: 671px;
+        gap: 16px;
+    }
+
+}

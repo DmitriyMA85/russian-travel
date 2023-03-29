@@ -6,3 +6,29 @@
     line-height: 35px;
     white-space: pre-line;
 }
+
+@media (min-width: 768px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+        white-space: normal;
+    }
+}
+
+@media (min-width:1024px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+        white-space: normal;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+        white-space: normal;
+    }
+
+}

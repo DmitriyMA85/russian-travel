@@ -15,3 +15,41 @@
 .footer__link:hover {
     color:gray;
 }
+
+@media (min-width: 768px) {
+    .footer__link {
+        min-height: 18px;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 18px;
+    }
+    .footer__link:last-of-type {
+        margin-right: 69px;
+    }
+}
+
+@media (min-width:1024px) {
+    .footer__link {
+        min-height: 18px;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 18px;
+    }
+    .footer__link:last-of-type {
+        margin-right: 277px;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .footer__link {
+        min-height: 18px;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 18px;
+    }
+    .footer__link:last-of-type {
+        margin-right: 533px;
+    }
+
+}

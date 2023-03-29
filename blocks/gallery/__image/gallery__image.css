@@ -2,3 +2,26 @@
     width: 288px;
     min-height: 216px;
 }
+
+@media (min-width:768px) {
+    .gallery__image {
+        width: 352px;
+        min-height: 264px;
+    }
+}
+
+@media (min-width:1024px) {
+    .gallery__image {
+        width: 300px;
+        min-height: 225px;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .gallery__image {
+        width: 284px;
+        min-height: 213px;
+    }
+
+}

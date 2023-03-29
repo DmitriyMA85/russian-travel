@@ -4,3 +4,32 @@
     font-family: 'Inter';
     font-style: normal;
 }
+
+@media (min-width: 768px) {
+    .footer {
+        display: inline;
+        width: 720px;
+        flex-direction: row;
+        align-content: baseline;
+    }
+}
+
+@media (min-width:1024px) {
+    .footer {
+        display: inline;
+        width: 928px;
+        flex-direction: row;
+        align-content: baseline;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .footer {
+        display: inline;
+        width: 1184px;
+        flex-direction: row;
+        align-content: baseline;
+    }
+
+}

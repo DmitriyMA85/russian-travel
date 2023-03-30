@@ -1,0 +1,26 @@
+.text {
+    width: 288px;
+    margin: 0 auto 0 auto;
+}
+
+@media (min-width:768px) {
+    .text {
+        width: 352px;
+        margin: 0;
+    }
+}
+
+@media (min-width:1024px) {
+    .text {
+        width: 456px;
+        margin: 0;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .text {
+        width: 484px;
+        margin: 0;
+    }
+}

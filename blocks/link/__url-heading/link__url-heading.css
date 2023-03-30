@@ -1,0 +1,30 @@
+.link__url-heading {
+    width: 288px;
+    min-height: 12px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #AAAAAA;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+}
+
+@media (min-width:768px) {
+    .link__url-heading {
+        width: 352px;
+    }
+}
+
+@media (min-width:1024px) {
+    .link__url-heading {
+        width: 456px;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .link__url-heading {
+        width: 456px;
+    }
+}

@@ -1,0 +1,25 @@
+.link {
+    width: 288px;
+    min-height: 46px;
+    margin: 0 16px 0 16px;
+}
+
+@media (min-width:768px) {
+    .link {
+        align-self:end;
+        margin: 0;   
+}
+}
+
+@media (min-width:1024px) {
+    .link {
+        margin: 0;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .link {
+        margin: 0;
+    }
+}

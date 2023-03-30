@@ -4,3 +4,28 @@
     margin-top: 32px;
     margin-bottom: 32px;
 }
+
+@media (min-width:768px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+        margin: 0;
+    }
+}
+
+@media (min-width:1024px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+        margin: 0;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .place__image {
+        width: 460px;
+        height: 460px;
+        margin: 0;
+    }
+}

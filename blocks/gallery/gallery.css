@@ -3,6 +3,7 @@
     min-height: 2724px;
     display: grid;
     gap: 12px;
+    margin: 64px auto 64px auto;
 }
 
 @media (min-width:768px) {
@@ -11,6 +12,7 @@
         width: 720px;
         min-height: 1664px;
         gap: 16px;
+        margin: 88px auto 88px auto;
     }
 }
 
@@ -20,6 +22,7 @@
         width: 928px;
         min-height: 942px;
         gap: 14px;
+        margin: 92px auto 92px auto;
     }
 
 }
@@ -30,6 +33,7 @@
         width: 1184px;
         min-height: 671px;
         gap: 16px;
+        margin: 92px auto 92px auto;
     }
 
 }

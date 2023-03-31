@@ -4,12 +4,14 @@
     font-family: 'Inter';
     font-style: normal;
     color: #FFFFFF;
+    margin: 0 16px;
 }
 
 @media (min-width: 768px) {
     .intro {
         width: 720px;
         min-height: 429px;
+        margin: 0 24px;
     }
 }
 
@@ -17,6 +19,7 @@
     .intro {
         width: 690px;
         min-height: 429px;
+        margin: 0 48px;
     }
 
 }
@@ -25,6 +28,7 @@
     .intro {
         width: 690px;
         min-height: 429px;
+        margin: 0 148px;
     }
 
 }

@@ -12,15 +12,17 @@
 <body class="page">
     <header class="header">
         <img class="header__logo" src="./images/__logo.svg" alt="Миникарта страны и надпись Россия">
-        <a href="#" lang="ru" class="header__lang-link header__lang-link_ru">Ru</a>
-        <a href="#" lang="en" class="header__lang-link header__lang-link_en">En</a>
+        <ul class="header__lang-links">
+        <li><a href="#" lang="ru" class="header__lang-link">Ru</a></li>
+        <li><a href="#" lang="en" class="header__lang-link header__lang-link_decoration">En</a></li>
+        </ul>
     </header>
     <main>
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__text">Настоящая страна не в выпусках
                 новостей, а здесь.</p>
-            <img src="./images/Image1.png" class="lead__image" alt="Фото купе со спящей девушкой">
+            <div class="lead__image"></div>
             <p class="lead__caption">ваша полка - верхняя</p>
         </section>
         <section class="intro">
@@ -46,11 +48,13 @@
                 по&#160;родной стране. Мы выбрали
                 и&#160;описали некоторые интересные
                 места, достойные вашего отпуска.</p>
-            <p class="intro__list">Часовых поясов <span class="intro__list intro__list_number">11</span>
-                Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_number">12</span>
-                Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_number">16</span>
-                Природных заповедников <span class="intro__list intro__list_number">105</span>
-                Аэропортов <span class="intro__list intro__list_number">241</span></p>
+            <ul class="intro__list">
+              <li>Часовых поясов <span class="intro__list intro__list_number">11</span></li>
+              <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_number">12</span></li>
+              <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_number">16</span></li>
+              <li>Природных заповедников <span class="intro__list intro__list_number">105</span></li>
+              <li>Аэропортов <span class="intro__list intro__list_number">241</span></p></li>
+            </ul>
         </section>
         <section class="gallery" aria-label="Галерея картинок">
             <img class="gallery__image" src="./images/photo-grid-train.jpg" alt="Фото вид из окна поезда на озеро">
@@ -60,8 +64,7 @@
             <img class="gallery__image" src="./images/photo-grid-arisa.jpg" alt="Фото части машин на льду">
             <img class="gallery__image" src="./images/photo-grid-baikal.jpg" alt="Фото пустынного берега">
             <img class="gallery__image" src="./images/photo-grid-elbrus.jpg" alt="Фото заснеженной горы">
-            <img class="gallery__image" src="./images/photo-grid-kondratiev.jpg"
-                alt="Фото бетонных ограждений и дорожного знака">
+            <img class="gallery__image" src="./images/photo-grid-kondratiev.jpg" alt="Фото бетонных ограждений и дорожного знака">
             <img class="gallery__image" src="./images/photo-grid-kamchatka-1.jpg" alt="Фото горной долины">
             <img class="gallery__image" src="./images/photo-grid-kamchatka-2.jpg" alt="Фото горы в хорошую погоду">
             <img class="gallery__image" src="./images/photo-grid-baikal-2.jpg" alt="Фото обрыва с горы на берег">
@@ -78,7 +81,7 @@
                     </div>
                     <img src="./images/place-kosa.jpg" class="place__image" alt="Фото каменистого берега">
                     <div class="text">
-                      <p class="text__paragraph1">Здесь, посреди лесов и песчаных 
+                      <p class="text__paragraph">Здесь, посреди лесов и песчаных 
                         дюн, вы сможете увидеть два
                         водных горизонта — спокойного 
                         Куршского залива с одной стороны 
@@ -86,7 +89,7 @@
                         Балтийского моря с другой. 
                         Уникальная природная зона 
                         на краю российского анклава.</p>
-                      <p class="text__paragraph2">На этом Калининградская область
+                      <p class="text__paragraph">На этом Калининградская область
                         не заканчивается. 
                         Для&#160;путешественника
                         и исследователя там же
@@ -108,12 +111,12 @@
                     </div>
                     <img src="./images/place-kolsky.jpg" class="place__image" alt="Фото горы со снегом">
                     <div class="text">
-                      <p class="text__paragraph1">Почти весь полуостров находится
+                      <p class="text__paragraph">Почти весь полуостров находится
                         за Полярным кругом. Саамская
                         тундра, от которой на юг — тайга,
                         а на север — Ледовитый океан,
                         прикидывающийся Баренцевым морем.</p>
-                      <p class="text__paragraph2">Возможно, вы смотрели
+                      <p class="text__paragraph">Возможно, вы смотрели
                         Звягинцева и даже слышали
                         историю арктического фестиваля в
                         Териберке. Возможно, слово
@@ -137,7 +140,7 @@
                     </div>
                     <img src="./images/place-altai.jpg" class="place__image" alt="Фото ноубука на фоне леса">
                     <div class="text">
-                      <p class="text__paragraph1">Алтай — одно из красивейших мест
+                      <p class="text__paragraph">Алтай — одно из красивейших мест
                         в России. В первую очередь из-за
                         гор: если ехать вдоль хребта, вы
                         увидите склоны, усыпанные
@@ -146,7 +149,7 @@
                         окна, сможете познакомиться с
                         невидимым чудом здешних мест —
                         горным воздухом.</p>
-                      <p class="text__paragraph2">Климат на Алтае умеренный,
+                      <p class="text__paragraph">Климат на Алтае умеренный,
                         поэтому ехать сюда лучше всего
                         летом. Так вы увидите всё
                         разнообразие местной флоры и
@@ -167,13 +170,13 @@
                     </div>
                     <img src="./images/place-winter-baikal.jpg" class="place__image" alt="Фото кусочка замерзшего озера">
                     <div class="text">
-                    <p class="text__paragraph1">Всем известен Байкал как
+                    <p class="text__paragraph">Всем известен Байкал как
                         крупнейшее озеро в мире. Многие
                         также знают, что это самый
                         большой источник пресной воды
                         и одно из красивейших мест
                         в России.</p>
-                    <p class="text__paragraph2">Конечно, это всё так. Но Байкал
+                    <p class="text__paragraph">Конечно, это всё так. Но Байкал
                         ещё идеальное место для
                         соревнований по скийорингу. Это
                         такой вид спорта, когда лыжник
@@ -194,7 +197,7 @@
                     </div>
                     <img src="./images/place-karelia.jpg" class="place__image" alt="Фото озера в лесу">
                     <div class="text">
-                      <p class="text__paragraph2">Сибирь заканчивается не на Урале,
+                      <p class="text__paragraph">Сибирь заканчивается не на Урале,
                         а в Карелии: образующая тайгу
                         сибирская лиственница не растёт
                         западнее Водлозера. Зато здесь
@@ -217,21 +220,20 @@
             </ul>
         </section>
         <section class="cover" aria-label="Путешествие на Байкал">
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__title" target="_blank">До Байкала 
-                «на собаках»</a>
-            <p class="cover__subtitle">По мотивам учебной темы 
-                о Транссибе — путешествие 
-                от столицы до Байкала на электричках.</p>
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__title" target="_blank">До Байкала «на&#160;собаках»</a>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </section>
     </main>
     <footer class="footer">
-        <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
-        <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
-        <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
-        <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
-        <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
+        <ul class="footer__links">
+            <li><a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a></li>
+            <li><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a></li>
+            <li><a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a></li>
+            <li><a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a></li>
+            <li><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></li>
+        </ul>
         <p class="footer__text">&copy; 2023. Дмитрий</p>
     </footer>
 </body>
 
-</html>
+</html 

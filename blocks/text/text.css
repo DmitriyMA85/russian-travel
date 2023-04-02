@@ -1,26 +1,27 @@
 .text {
-    width: 288px;
+    display: grid;
+    row-gap: 25px;
+    max-width: 288px;
     margin: 0 auto 0 auto;
 }
 
 @media (min-width:768px) {
     .text {
-        width: 352px;
+        max-width: 352px;
+        row-gap: 27px;
         margin: 0;
     }
 }
 
 @media (min-width:1024px) {
     .text {
-        width: 456px;
-        margin: 0;
+        max-width: 456px;
     }
 
 }
 
 @media (min-width:1280px) {
     .text {
-        width: 484px;
-        margin: 0;
-    }
+        max-width: 484px;
+}
 }

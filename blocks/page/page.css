@@ -1,32 +1,34 @@
 .page {
     margin: 0 auto;
-    width: 320px;
-    min-height: 10023px;
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     background: #2A2C2F;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering:optimizeLegibility;
 }
 
 @media (min-width:768px) {
     .page {
-        width: 768px;
-        min-height: 6855px;
+        max-width: 768px;
     }
 
 }
 
 @media (min-width:1024px) {
     .page {
-        width: 1024px;
-        min-height: 6855px;
+        max-width: 1024px;
     }
 
 }
 
 @media (min-width:1280px) {
     .page {
-        width: 1280px;
-        min-height: 6875px;
+        max-width: 1280px;
     }
 
 }

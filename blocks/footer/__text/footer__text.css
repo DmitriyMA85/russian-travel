@@ -1,5 +1,4 @@
 .footer__text {
-    width: 186px;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
@@ -9,27 +8,7 @@
 
 @media (min-width: 768px) {
     .footer__text {
-        display: inline;
         min-height: 16px;
         line-height: 16px;
     }
-}
-
-@media (min-width:1024px) {
-    .footer__text {
-        display: inline;
-        min-height: 16px;
-        line-height: 16px;
-    }
-
-}
-
-@media (min-width:1280px) {
-    .footer__text {
-        display: inline;
-        min-height: 16px;
-        line-height: 16px;
-        
-    }
-
 }

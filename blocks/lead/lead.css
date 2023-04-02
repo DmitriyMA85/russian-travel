@@ -1,7 +1,5 @@
 .lead {
-    width: 320px;
-    min-height: 406px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     color: #FFFFFF;
     margin: 0 auto 64px auto;
@@ -9,25 +7,12 @@
 
 @media (min-width:768px) {
     .lead {
-        width: 768px;
-        min-height: 862px;
         margin: 0 auto 88px auto;
     }
 }
 
 @media (min-width:1024px) {
     .lead {
-        width: 928px;
-        min-height: 962px;
-        margin: 0 auto 92px auto;
-    }
-
-}
-
-@media (min-width:1280px) {
-    .lead {
-        width: 984px;
-        min-height: 1005px;
         margin: 0 auto 92px auto;
     }
 

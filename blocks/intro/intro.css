@@ -1,7 +1,6 @@
 .intro {
-    width: 288px;
-    min-height: 754px;
-    font-family: 'Inter';
+    max-width: 288px;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     color: #FFFFFF;
     margin: 0 16px;
@@ -9,16 +8,14 @@
 
 @media (min-width: 768px) {
     .intro {
-        width: 720px;
-        min-height: 429px;
+        max-width: 720px;
         margin: 0 24px;
     }
 }
 
 @media (min-width:1024px) {
     .intro {
-        width: 690px;
-        min-height: 429px;
+        max-width: 690px;
         margin: 0 48px;
     }
 
@@ -26,8 +23,7 @@
 
 @media (min-width:1280px) {
     .intro {
-        width: 690px;
-        min-height: 429px;
+        max-width: 690px;
         margin: 0 148px;
     }
 

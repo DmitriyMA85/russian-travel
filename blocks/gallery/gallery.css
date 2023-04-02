@@ -1,6 +1,5 @@
 .gallery {
-    width: 288px;
-    min-height: 2724px;
+    max-width: 288px;
     display: grid;
     gap: 12px;
     margin: 64px auto 64px auto;
@@ -9,8 +8,7 @@
 @media (min-width:768px) {
     .gallery {
         grid-template-columns:repeat(2,1fr);
-        width: 720px;
-        min-height: 1664px;
+        max-width: 720px;
         gap: 16px;
         margin: 88px auto 88px auto;
     }
@@ -19,8 +17,7 @@
 @media (min-width:1024px) {
     .gallery {
         grid-template-columns:repeat(3,1fr);
-        width: 928px;
-        min-height: 942px;
+        max-width: 928px;
         gap: 14px;
         margin: 92px auto 92px auto;
     }
@@ -30,8 +27,7 @@
 @media (min-width:1280px) {
     .gallery {
         grid-template-columns:repeat(4,1fr);
-        width: 1184px;
-        min-height: 671px;
+        max-width: 1184px;
         gap: 16px;
         margin: 92px auto 92px auto;
     }

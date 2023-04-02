@@ -1,6 +1,6 @@
 .lead__image {
     max-width: 320px;
-    min-height: 200px;
+    height: 200px;
     background-image: url("../../../images/Image1.png");
     background-repeat: no-repeat;
     background-size: contain;

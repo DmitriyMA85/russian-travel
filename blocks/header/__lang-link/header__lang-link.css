@@ -6,6 +6,9 @@
     font-size: 18px;
     line-height: 20px;
 }
+.header__lang-link:hover {
+    opacity: .5;
+}
 
 
 @media (min-width: 768px) {

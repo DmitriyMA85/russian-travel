@@ -4,7 +4,6 @@
     line-height: 35px;
     text-decoration: none;
     color: #FFFFFF;
-    z-index: 2;
 }
 
 .cover__title::after {

@@ -1,33 +1,27 @@
 .link__value {
     display: block;
-    width: 288px;
-    min-height: 22px;
+    max-width: 288px;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
 }
+.link__value:hover
+{opacity: .5;}
 
 @media (min-width:768px) {
     .link__value {
         grid-area: link;
-        width: 352px;
+        max-width: 352px;
         margin: 0;   
 }
 }
 
 @media (min-width:1024px) {
     .link__value {
-        width: 456px;
+        max-width: 456px;
         margin: 0;
     }
 
-}
-
-@media (min-width:1280px) {
-    .link__value {
-        width: 456px;
-        margin: 0;
-    }
 }

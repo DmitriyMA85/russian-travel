@@ -4,15 +4,8 @@
     line-height: 35px;
     text-decoration: none;
     color: #FFFFFF;
-}
-
-.cover__title::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 @media (min-width: 768px) {
@@ -20,5 +13,6 @@
         max-width: 560px;
         font-size: 72px;
         line-height: 76px;
+        margin-bottom: 32px;
     }
 }

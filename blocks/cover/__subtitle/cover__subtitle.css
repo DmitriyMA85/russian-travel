@@ -4,7 +4,8 @@
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    margin: 0;
+    text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 @media (min-width: 768px) {

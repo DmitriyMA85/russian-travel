@@ -7,23 +7,5 @@
     .header__logo {
         width: 176px;
         min-height: 52px;
-        margin-right: 467px;
     }
-}
-@media (min-width:1024px) {
-    .header__logo {
-        width: 176px;
-        min-height: 52px;
-        margin-right: 675px;
-    }
-
-}
-
-@media (min-width:1280px) {
-    .header__logo {
-        width: 176px;
-        min-height: 52px;
-        margin-right: 931px;
-    }
-
 }

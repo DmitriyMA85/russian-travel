@@ -1,0 +1,11 @@
+.place__link {
+    max-width: 288px;
+    margin: 0 16px 0 16px;
+}
+
+@media (min-width:768px) {
+    .place__link {
+        align-self: end;
+        margin: 0;
+    }
+}

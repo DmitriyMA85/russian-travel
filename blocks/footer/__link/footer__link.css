@@ -6,10 +6,6 @@
     color: #FFFFFF;
     list-style-type: none;
 }
-.footer__link:hover {
-    color:gray;
-    opacity: .5;
-}
 
 @media (min-width: 768px) {
     .footer__link {

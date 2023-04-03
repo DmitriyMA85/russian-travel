@@ -1,4 +1,4 @@
-.link__url-heading {
+.place__url-heading {
     max-width: 288px;
     margin-top: 0;
     margin-bottom: 12px;
@@ -7,23 +7,18 @@
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 @media (min-width:768px) {
-    .link__url-heading {
+    .place__url-heading {
         max-width: 352px;
     }
 }
 
 @media (min-width:1024px) {
-    .link__url-heading {
+    .place__url-heading {
         max-width: 456px;
     }
 
-}
-
-@media (min-width:1280px) {
-    .link__url-heading {
-        max-width: 456px;
-    }
 }

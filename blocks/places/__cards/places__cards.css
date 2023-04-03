@@ -5,9 +5,10 @@
     margin: 0;
     padding-left: 0;
 }
+
 @media (min-width:768px) {
     .places__cards {
-        row-gap: 88px;
+        row-gap: 73px;
     }
 }
 

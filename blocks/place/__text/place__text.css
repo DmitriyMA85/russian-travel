@@ -1,0 +1,30 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    width: 288px;
+    margin: 0 auto 0 auto;
+}
+
+@media (min-width:768px) {
+    .place__text {
+        width: 352px;
+        row-gap: 25px;
+        margin: 0;
+    }
+}
+
+@media (min-width:1024px) {
+    .place__text {
+        width: 456px;
+        row-gap: 26px;
+    }
+
+}
+
+@media (min-width:1280px) {
+    .place__text {
+        width: 484px;
+        row-gap: 26px;
+    }
+}

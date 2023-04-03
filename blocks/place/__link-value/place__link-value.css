@@ -1,4 +1,4 @@
-.link__value {
+.place__link-value {
     display: block;
     max-width: 288px;
     font-weight: 400;
@@ -7,21 +7,22 @@
     text-decoration-line: underline;
     color: #FFFFFF;
 }
-.link__value:hover
-{opacity: .5;}
+
+.place__link-value:hover {
+    opacity: .5;
+}
 
 @media (min-width:768px) {
-    .link__value {
+    .place__link-value {
         grid-area: link;
         max-width: 352px;
-        margin: 0;   
-}
+        margin: 0;
+    }
 }
 
 @media (min-width:1024px) {
-    .link__value {
+    .place__link-value {
         max-width: 456px;
-        margin: 0;
     }
 
 }

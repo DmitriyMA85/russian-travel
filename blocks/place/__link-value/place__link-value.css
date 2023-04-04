@@ -16,7 +16,6 @@
     .place__link-value {
         grid-area: link;
         max-width: 352px;
-        margin: 0;
     }
 }
 
